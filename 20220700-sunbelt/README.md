@@ -1,5 +1,9 @@
 # Sunbelt 2022 conference
 
+<div align="center">
+<img style="width:60%" src="allnets.png">
+</div>
+
 For this year's [**International Network of Social Network Analysis**](https://www.insna.org/) Sunbelt conference, I have created four different network visualizations. All of them use mainly three R packages: [data.table](https://cran.r-project.org/package=data.table), [igraph](https://cran.r-project.org/package=igraph), [netplot](https://cran.r-project.org/package=netplot), and [rgexf](https://cran.r-project.org/package=rgexf).
 
 1. [**Co-session network**](#co-session-network): Uses the online version of the program. Nodes are people and ties are given by nodes co-occurring within a session. Nodes are colored according to their roles: speaker, session chair, session organizer.
