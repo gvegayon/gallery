@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd" version="1.3">
+  <meta lastmodifieddate="2022-07-13">
+    <creator>NodosChile</creator>
+    <description>A GEXF file written in R with "rgexf"</description>
+    <keywords>GEXF, NodosChile, R, rgexf, Gephi</keywords>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <attributes class="node" mode="static">
+      <attribute id="att1" title="community" type="float"/>
+    </attributes>
+    <nodes>
+      <node id="advances in statistical modelling" label="advances in statistical modelling">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="255" a="1"/>
+        <viz:position x="36.4146175856129" y="-93.2784121207147" z="0"/>
+        <viz:size value="6.32455532033676"/>
+      </node>
+      <node id="community detection" label="community detection">
+        <attvalues>
+          <attvalue for="att1" value="2"/>
+        </attvalues>
+        <viz:color r="240" g="248" b="255" a="1"/>
+        <viz:position x="-49.4822327234986" y="-61.2942501286554" z="0"/>
+        <viz:size value="6.32455532033676"/>
+      </node>
+      <node id="community networks" label="community networks">
+        <attvalues>
+          <attvalue for="att1" value="3"/>
+        </attvalues>
+        <viz:color r="250" g="235" b="215" a="1"/>
+        <viz:position x="52.0108305290426" y="56.6312255993808" z="0"/>
+        <viz:size value="4.47213595499958"/>
+      </node>
+      <node id="methods" label="methods">
+        <attvalues>
+          <attvalue for="att1" value="4"/>
+        </attvalues>
+        <viz:color r="255" g="239" b="219" a="1"/>
+        <viz:position x="4.29655653870435" y="64.3574639235541" z="0"/>
+        <viz:size value="6.32455532033676"/>
+      </node>
+      <node id="stochastic blockmodels" label="stochastic blockmodels">
+        <attvalues>
+          <attvalue for="att1" value="5"/>
+        </attvalues>
+        <viz:color r="238" g="223" b="204" a="1"/>
+        <viz:position x="61.4664050506703" y="-25.1096243036983" z="0"/>
+        <viz:size value="7.74596669241483"/>
+      </node>
+      <node id="cognitive social structures" label="cognitive social structures">
+        <attvalues>
+          <attvalue for="att1" value="6"/>
+        </attvalues>
+        <viz:color r="205" g="192" b="176" a="1"/>
+        <viz:position x="76.6653880511134" y="64.175449856952" z="0"/>
+        <viz:size value="4.47213595499958"/>
+      </node>
+      <node id="egocentric networks" label="egocentric networks">
+        <attvalues>
+          <attvalue for="att1" value="7"/>
+        </attvalues>
+        <viz:color r="139" g="131" b="120" a="1"/>
+        <viz:position x="-37.3271811814975" y="74.8737037189742" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="health networks" label="health networks">
+        <attvalues>
+          <attvalue for="att1" value="7"/>
+        </attvalues>
+        <viz:color r="139" g="131" b="120" a="1"/>
+        <viz:position x="-69.4315304712816" y="69.3740984590999" z="0"/>
+        <viz:size value="7.74596669241483"/>
+      </node>
+      <node id="network data collection" label="network data collection">
+        <attvalues>
+          <attvalue for="att1" value="4"/>
+        </attvalues>
+        <viz:color r="255" g="239" b="219" a="1"/>
+        <viz:position x="-5.71440545270382" y="80.7671429684396" z="0"/>
+        <viz:size value="8.94427190999916"/>
+      </node>
+      <node id="public health" label="public health">
+        <attvalues>
+          <attvalue for="att1" value="7"/>
+        </attvalues>
+        <viz:color r="139" g="131" b="120" a="1"/>
+        <viz:position x="-54.7015154365847" y="82.5983261169646" z="0"/>
+        <viz:size value="8.94427190999916"/>
+      </node>
+      <node id="centrality measures" label="centrality measures">
+        <attvalues>
+          <attvalue for="att1" value="8"/>
+        </attvalues>
+        <viz:color r="127" g="255" b="212" a="1"/>
+        <viz:position x="-6.76853146153482" y="6.00224910503282" z="0"/>
+        <viz:size value="4.47213595499958"/>
+      </node>
+      <node id="digital humanities" label="digital humanities">
+        <attvalues>
+          <attvalue for="att1" value="9"/>
+        </attvalues>
+        <viz:color r="118" g="238" b="198" a="1"/>
+        <viz:position x="47.9965936400626" y="18.0584208705765" z="0"/>
+        <viz:size value="4.47213595499958"/>
+      </node>
+      <node id="semantic networks" label="semantic networks">
+        <attvalues>
+          <attvalue for="att1" value="10"/>
+        </attvalues>
+        <viz:color r="102" g="205" b="170" a="1"/>
+        <viz:position x="27.6270329417171" y="93.4059615070873" z="0"/>
+        <viz:size value="6.32455532033676"/>
+      </node>
+      <node id="criminal networks" label="criminal networks">
+        <attvalues>
+          <attvalue for="att1" value="11"/>
+        </attvalues>
+        <viz:color r="69" g="139" b="116" a="1"/>
+        <viz:position x="10.7838984037026" y="29.7713185667834" z="0"/>
+        <viz:size value="6.32455532033676"/>
+      </node>
+      <node id="social capital" label="social capital">
+        <attvalues>
+          <attvalue for="att1" value="7"/>
+        </attvalues>
+        <viz:color r="139" g="131" b="120" a="1"/>
+        <viz:position x="-36.216047342583" y="56.0270621398485" z="0"/>
+        <viz:size value="8.94427190999916"/>
+      </node>
+      <node id="social support" label="social support">
+        <attvalues>
+          <attvalue for="att1" value="7"/>
+        </attvalues>
+        <viz:color r="139" g="131" b="120" a="1"/>
+        <viz:position x="-52.5388984867458" y="64.2890234806556" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="organizations and networks" label="organizations and networks">
+        <attvalues>
+          <attvalue for="att1" value="7"/>
+        </attvalues>
+        <viz:color r="139" g="131" b="120" a="1"/>
+        <viz:position x="-30.4965323148091" y="38.7034980923598" z="0"/>
+        <viz:size value="7.74596669241483"/>
+      </node>
+      <node id="dark networks" label="dark networks">
+        <attvalues>
+          <attvalue for="att1" value="11"/>
+        </attvalues>
+        <viz:color r="69" g="139" b="116" a="1"/>
+        <viz:position x="27.5294853358188" y="39.933419264112" z="0"/>
+        <viz:size value="6.32455532033676"/>
+      </node>
+      <node id="organisational networks" label="organisational networks">
+        <attvalues>
+          <attvalue for="att1" value="7"/>
+        </attvalues>
+        <viz:color r="139" g="131" b="120" a="1"/>
+        <viz:position x="-44.9105100193452" y="25.5269111399595" z="0"/>
+        <viz:size value="6.32455532033676"/>
+      </node>
+      <node id="networks of flow" label="networks of flow">
+        <attvalues>
+          <attvalue for="att1" value="12"/>
+        </attvalues>
+        <viz:color r="240" g="255" b="255" a="1"/>
+        <viz:position x="-19.9779923012031" y="-95.7039113773451" z="0"/>
+        <viz:size value="6.32455532033676"/>
+      </node>
+      <node id="online networks" label="online networks">
+        <attvalues>
+          <attvalue for="att1" value="2"/>
+        </attvalues>
+        <viz:color r="240" g="248" b="255" a="1"/>
+        <viz:position x="-54.9651937677591" y="-42.8739543012924" z="0"/>
+        <viz:size value="8.94427190999916"/>
+      </node>
+      <node id="social influence" label="social influence">
+        <attvalues>
+          <attvalue for="att1" value="2"/>
+        </attvalues>
+        <viz:color r="240" g="248" b="255" a="1"/>
+        <viz:position x="-39.9471149494421" y="-30.2513806454" z="0"/>
+        <viz:size value="6.32455532033676"/>
+      </node>
+      <node id="exponential random graph models" label="exponential random graph models">
+        <attvalues>
+          <attvalue for="att1" value="13"/>
+        </attvalues>
+        <viz:color r="224" g="238" b="238" a="1"/>
+        <viz:position x="-41.9792196018525" y="-2.52845927411578" z="0"/>
+        <viz:size value="4.47213595499958"/>
+      </node>
+      <node id="multilevel networks" label="multilevel networks">
+        <attvalues>
+          <attvalue for="att1" value="14"/>
+        </attvalues>
+        <viz:color r="193" g="205" b="205" a="1"/>
+        <viz:position x="98.0996440313011" y="25.296627771011" z="0"/>
+        <viz:size value="4.47213595499958"/>
+      </node>
+      <node id="qualitative network analysis" label="qualitative network analysis">
+        <attvalues>
+          <attvalue for="att1" value="15"/>
+        </attvalues>
+        <viz:color r="131" g="139" b="139" a="1"/>
+        <viz:position x="-90.3272419845706" y="-10.0899715171793" z="0"/>
+        <viz:size value="6.32455532033676"/>
+      </node>
+      <node id="networks and geography" label="networks and geography">
+        <attvalues>
+          <attvalue for="att1" value="12"/>
+        </attvalues>
+        <viz:color r="240" g="255" b="255" a="1"/>
+        <viz:position x="-1.91700309001945" y="-100" z="0"/>
+        <viz:size value="6.32455532033676"/>
+      </node>
+      <node id="archival networks" label="archival networks">
+        <attvalues>
+          <attvalue for="att1" value="5"/>
+        </attvalues>
+        <viz:color r="238" g="223" b="204" a="1"/>
+        <viz:position x="22.783532844001" y="-35.6508293331015" z="0"/>
+        <viz:size value="6.32455532033676"/>
+      </node>
+      <node id="experiments on networks" label="experiments on networks">
+        <attvalues>
+          <attvalue for="att1" value="16"/>
+        </attvalues>
+        <viz:color r="245" g="245" b="220" a="1"/>
+        <viz:position x="100" y="-12.1044869402461" z="0"/>
+        <viz:size value="4.47213595499958"/>
+      </node>
+      <node id="structural holes" label="structural holes">
+        <attvalues>
+          <attvalue for="att1" value="17"/>
+        </attvalues>
+        <viz:color r="255" g="228" b="196" a="1"/>
+        <viz:position x="-65.8620495164996" y="-75.0843445820415" z="0"/>
+        <viz:size value="4.47213595499958"/>
+      </node>
+      <node id="animal networks" label="animal networks">
+        <attvalues>
+          <attvalue for="att1" value="18"/>
+        </attvalues>
+        <viz:color r="238" g="213" b="183" a="1"/>
+        <viz:position x="96.4614798139217" y="-33.1692144271796" z="0"/>
+        <viz:size value="4.47213595499958"/>
+      </node>
+      <node id="food chains" label="food chains">
+        <attvalues>
+          <attvalue for="att1" value="19"/>
+        </attvalues>
+        <viz:color r="205" g="183" b="158" a="1"/>
+        <viz:position x="90.0385494502697" y="45.2053255046201" z="0"/>
+        <viz:size value="6.32455532033676"/>
+      </node>
+      <node id="network intervention" label="network intervention">
+        <attvalues>
+          <attvalue for="att1" value="20"/>
+        </attvalues>
+        <viz:color r="139" g="125" b="107" a="1"/>
+        <viz:position x="-49.7133831499263" y="-85.0045761438165" z="0"/>
+        <viz:size value="4.47213595499958"/>
+      </node>
+      <node id="relational events" label="relational events">
+        <attvalues>
+          <attvalue for="att1" value="21"/>
+        </attvalues>
+        <viz:color r="0" g="0" b="0" a="1"/>
+        <viz:position x="-34.6983263865495" y="-90.5279338067823" z="0"/>
+        <viz:size value="4.47213595499958"/>
+      </node>
+      <node id="trade networks and supply chains" label="trade networks and supply chains">
+        <attvalues>
+          <attvalue for="att1" value="19"/>
+        </attvalues>
+        <viz:color r="205" g="183" b="158" a="1"/>
+        <viz:position x="71.1444448877435" y="45.0979850554192" z="0"/>
+        <viz:size value="6.32455532033676"/>
+      </node>
+      <node id="two mode networks" label="two mode networks">
+        <attvalues>
+          <attvalue for="att1" value="22"/>
+        </attvalues>
+        <viz:color r="255" g="235" b="205" a="1"/>
+        <viz:position x="28.9319624707776" y="-72.719590625984" z="0"/>
+        <viz:size value="4.47213595499958"/>
+      </node>
+      <node id="migration networks" label="migration networks">
+        <attvalues>
+          <attvalue for="att1" value="23"/>
+        </attvalues>
+        <viz:color r="0" g="0" b="255" a="1"/>
+        <viz:position x="64.0874670320759" y="-74.4206596104947" z="0"/>
+        <viz:size value="4.47213595499958"/>
+      </node>
+      <node id="measurement error" label="measurement error">
+        <attvalues>
+          <attvalue for="att1" value="24"/>
+        </attvalues>
+        <viz:color r="0" g="0" b="238" a="1"/>
+        <viz:position x="79.0326726015839" y="22.3456441604554" z="0"/>
+        <viz:size value="6.32455532033676"/>
+      </node>
+      <node id="ethics in network research" label="ethics in network research">
+        <attvalues>
+          <attvalue for="att1" value="25"/>
+        </attvalues>
+        <viz:color r="0" g="0" b="205" a="1"/>
+        <viz:position x="51.5877031937059" y="-83.984667718542" z="0"/>
+        <viz:size value="4.47213595499958"/>
+      </node>
+      <node id="longitudinal networks" label="longitudinal networks">
+        <attvalues>
+          <attvalue for="att1" value="26"/>
+        </attvalues>
+        <viz:color r="0" g="0" b="139" a="1"/>
+        <viz:position x="-19.1486760454574" y="-68.271012220334" z="0"/>
+        <viz:size value="6.32455532033676"/>
+      </node>
+      <node id="name generator" label="name generator">
+        <attvalues>
+          <attvalue for="att1" value="4"/>
+        </attvalues>
+        <viz:color r="255" g="239" b="219" a="1"/>
+        <viz:position x="-24.082997947967" y="86.8648219051313" z="0"/>
+        <viz:size value="7.74596669241483"/>
+      </node>
+      <node id="visualisation" label="visualisation">
+        <attvalues>
+          <attvalue for="att1" value="4"/>
+        </attvalues>
+        <viz:color r="255" g="239" b="219" a="1"/>
+        <viz:position x="6.90858286632745" y="94.9585539786431" z="0"/>
+        <viz:size value="6.32455532033676"/>
+      </node>
+      <node id="mixed methods" label="mixed methods">
+        <attvalues>
+          <attvalue for="att1" value="15"/>
+        </attvalues>
+        <viz:color r="131" g="139" b="139" a="1"/>
+        <viz:position x="-73.5597645394654" y="-0.574036740202871" z="0"/>
+        <viz:size value="6.32455532033676"/>
+      </node>
+      <node id="multiplex networks" label="multiplex networks">
+        <attvalues>
+          <attvalue for="att1" value="27"/>
+        </attvalues>
+        <viz:color r="138" g="43" b="226" a="1"/>
+        <viz:position x="76.5701100321254" y="-64.496258853973" z="0"/>
+        <viz:size value="6.32455532033676"/>
+      </node>
+      <node id="agent based models" label="agent based models">
+        <attvalues>
+          <attvalue for="att1" value="28"/>
+        </attvalues>
+        <viz:color r="165" g="42" b="42" a="1"/>
+        <viz:position x="-90.8999175618958" y="38.0285551220414" z="0"/>
+        <viz:size value="4.47213595499958"/>
+      </node>
+      <node id="education and networks" label="education and networks">
+        <attvalues>
+          <attvalue for="att1" value="29"/>
+        </attvalues>
+        <viz:color r="255" g="64" b="64" a="1"/>
+        <viz:position x="-73.2673075613877" y="27.0795478371017" z="0"/>
+        <viz:size value="4.47213595499958"/>
+      </node>
+      <node id="software" label="software">
+        <attvalues>
+          <attvalue for="att1" value="30"/>
+        </attvalues>
+        <viz:color r="238" g="59" b="59" a="1"/>
+        <viz:position x="-11.463862907071" y="100" z="0"/>
+        <viz:size value="4.47213595499958"/>
+      </node>
+      <node id="interlocking directors" label="interlocking directors">
+        <attvalues>
+          <attvalue for="att1" value="31"/>
+        </attvalues>
+        <viz:color r="205" g="51" b="51" a="1"/>
+        <viz:position x="-100" y="3.69477820462684" z="0"/>
+        <viz:size value="4.47213595499958"/>
+      </node>
+      <node id="political networks" label="political networks">
+        <attvalues>
+          <attvalue for="att1" value="2"/>
+        </attvalues>
+        <viz:color r="240" g="248" b="255" a="1"/>
+        <viz:position x="-72.2878273003123" y="-34.1705150969353" z="0"/>
+        <viz:size value="7.74596669241483"/>
+      </node>
+      <node id="sociosemantic networks" label="sociosemantic networks">
+        <attvalues>
+          <attvalue for="att1" value="10"/>
+        </attvalues>
+        <viz:color r="102" g="205" b="170" a="1"/>
+        <viz:position x="45.5079268475254" y="87.1417054197431" z="0"/>
+        <viz:size value="6.32455532033676"/>
+      </node>
+      <node id="socioecological networks" label="socioecological networks">
+        <attvalues>
+          <attvalue for="att1" value="32"/>
+        </attvalues>
+        <viz:color r="139" g="35" b="35" a="1"/>
+        <viz:position x="99.844389793768" y="5.47458196758967" z="0"/>
+        <viz:size value="4.47213595499958"/>
+      </node>
+      <node id="contagion" label="contagion">
+        <attvalues>
+          <attvalue for="att1" value="33"/>
+        </attvalues>
+        <viz:color r="222" g="184" b="135" a="1"/>
+        <viz:position x="-97.0421666383441" y="-25.6696441641761" z="0"/>
+        <viz:size value="4.47213595499958"/>
+      </node>
+      <node id="modelling of longitudinal networks" label="modelling of longitudinal networks">
+        <attvalues>
+          <attvalue for="att1" value="26"/>
+        </attvalues>
+        <viz:color r="0" g="0" b="139" a="1"/>
+        <viz:position x="-6.97758129780513" y="-53.260981042108" z="0"/>
+        <viz:size value="6.32455532033676"/>
+      </node>
+      <node id="network churn" label="network churn">
+        <attvalues>
+          <attvalue for="att1" value="34"/>
+        </attvalues>
+        <viz:color r="255" g="211" b="155" a="1"/>
+        <viz:position x="-79.2468294040713" y="-60.8244151207031" z="0"/>
+        <viz:size value="4.47213595499958"/>
+      </node>
+      <node id="mathematical modelling" label="mathematical modelling">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="255" a="1"/>
+        <viz:position x="17.8769226821096" y="-96.9141929921685" z="0"/>
+        <viz:size value="7.74596669241483"/>
+      </node>
+      <node id="complex networks" label="complex networks">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="255" a="1"/>
+        <viz:position x="5.81420571254768" y="-82.0791052561019" z="0"/>
+        <viz:size value="6.32455532033676"/>
+      </node>
+      <node id="policy networks" label="policy networks">
+        <attvalues>
+          <attvalue for="att1" value="2"/>
+        </attvalues>
+        <viz:color r="240" g="248" b="255" a="1"/>
+        <viz:position x="-88.4947650247033" y="-43.5906371246033" z="0"/>
+        <viz:size value="6.32455532033676"/>
+      </node>
+      <node id="blockmodelling" label="blockmodelling">
+        <attvalues>
+          <attvalue for="att1" value="5"/>
+        </attvalues>
+        <viz:color r="238" g="223" b="204" a="1"/>
+        <viz:position x="57.1376464040215" y="-44.3596851876025" z="0"/>
+        <viz:size value="7.74596669241483"/>
+      </node>
+      <node id="multilayered networks" label="multilayered networks">
+        <attvalues>
+          <attvalue for="att1" value="27"/>
+        </attvalues>
+        <viz:color r="138" g="43" b="226" a="1"/>
+        <viz:position x="87.0694906352095" y="-49.4275246624527" z="0"/>
+        <viz:size value="6.32455532033676"/>
+      </node>
+      <node id="historical networks" label="historical networks">
+        <attvalues>
+          <attvalue for="att1" value="5"/>
+        </attvalues>
+        <viz:color r="238" g="223" b="204" a="1"/>
+        <viz:position x="38.0519058351233" y="-47.9920363533623" z="0"/>
+        <viz:size value="7.74596669241483"/>
+      </node>
+      <node id="missing data" label="missing data">
+        <attvalues>
+          <attvalue for="att1" value="35"/>
+        </attvalues>
+        <viz:color r="238" g="197" b="145" a="1"/>
+        <viz:position x="-7.05479212742679" y="-21.610882622141" z="0"/>
+        <viz:size value="4.47213595499958"/>
+      </node>
+      <node id="game theory" label="game theory">
+        <attvalues>
+          <attvalue for="att1" value="36"/>
+        </attvalues>
+        <viz:color r="205" g="170" b="125" a="1"/>
+        <viz:position x="28.3594772467972" y="-3.19856404851905" z="0"/>
+        <viz:size value="4.47213595499958"/>
+      </node>
+      <node id="sociomaterial networks" label="sociomaterial networks">
+        <attvalues>
+          <attvalue for="att1" value="37"/>
+        </attvalues>
+        <viz:color r="139" g="115" b="85" a="1"/>
+        <viz:position x="-81.461205187109" y="51.9027773682375" z="0"/>
+        <viz:size value="4.47213595499958"/>
+      </node>
+      <node id="latent space models" label="latent space models">
+        <attvalues>
+          <attvalue for="att1" value="5"/>
+        </attvalues>
+        <viz:color r="238" g="223" b="204" a="1"/>
+        <viz:position x="80.4536511405872" y="-22.4143146551757" z="0"/>
+        <viz:size value="6.32455532033676"/>
+      </node>
+      <node id="network sampling" label="network sampling">
+        <attvalues>
+          <attvalue for="att1" value="38"/>
+        </attvalues>
+        <viz:color r="95" g="158" b="160" a="1"/>
+        <viz:position x="-95.2254254233649" y="20.6130809191004" z="0"/>
+        <viz:size value="4.47213595499958"/>
+      </node>
+      <node id="biased nets" label="biased nets">
+        <attvalues>
+          <attvalue for="att1" value="24"/>
+        </attvalues>
+        <viz:color r="0" g="0" b="238" a="1"/>
+        <viz:position x="73.0187452538353" y="4.23035952516069" z="0"/>
+        <viz:size value="6.32455532033676"/>
+      </node>
+      <node id="backbone" label="backbone">
+        <attvalues>
+          <attvalue for="att1" value="39"/>
+        </attvalues>
+        <viz:color r="152" g="245" b="255" a="1"/>
+        <viz:position x="61.5407810534909" y="76.7260654267381" z="0"/>
+        <viz:size value="4.47213595499958"/>
+      </node>
+      <node id="character networks" label="character networks">
+        <attvalues>
+          <attvalue for="att1" value="40"/>
+        </attvalues>
+        <viz:color r="142" g="229" b="238" a="1"/>
+        <viz:position x="32.3691952460386" y="72.1577978418897" z="0"/>
+        <viz:size value="4.47213595499958"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="advances in statistical modelling" target="mathematical modelling" weight="1"/>
+      <edge id="1" source="community detection" target="online networks" weight="1"/>
+      <edge id="2" source="methods" target="network data collection" weight="1"/>
+      <edge id="3" source="stochastic blockmodels" target="blockmodelling" weight="1"/>
+      <edge id="4" source="stochastic blockmodels" target="latent space models" weight="1"/>
+      <edge id="5" source="egocentric networks" target="public health" weight="1"/>
+      <edge id="6" source="egocentric networks" target="social capital" weight="1"/>
+      <edge id="7" source="egocentric networks" target="social support" weight="1"/>
+      <edge id="8" source="egocentric networks" target="name generator" weight="1"/>
+      <edge id="9" source="health networks" target="public health" weight="1"/>
+      <edge id="10" source="health networks" target="social support" weight="1"/>
+      <edge id="11" source="network data collection" target="name generator" weight="1"/>
+      <edge id="12" source="network data collection" target="visualisation" weight="1"/>
+      <edge id="13" source="public health" target="social support" weight="1"/>
+      <edge id="14" source="semantic networks" target="sociosemantic networks" weight="1"/>
+      <edge id="15" source="criminal networks" target="dark networks" weight="1"/>
+      <edge id="16" source="social capital" target="social support" weight="1"/>
+      <edge id="17" source="social capital" target="organizations and networks" weight="1"/>
+      <edge id="18" source="organizations and networks" target="organisational networks" weight="1"/>
+      <edge id="19" source="networks of flow" target="networks and geography" weight="1"/>
+      <edge id="20" source="online networks" target="social influence" weight="1"/>
+      <edge id="21" source="online networks" target="political networks" weight="1"/>
+      <edge id="22" source="qualitative network analysis" target="mixed methods" weight="1"/>
+      <edge id="23" source="archival networks" target="historical networks" weight="1"/>
+      <edge id="24" source="food chains" target="trade networks and supply chains" weight="1"/>
+      <edge id="25" source="measurement error" target="biased nets" weight="1"/>
+      <edge id="26" source="longitudinal networks" target="modelling of longitudinal networks" weight="1"/>
+      <edge id="27" source="multiplex networks" target="multilayered networks" weight="1"/>
+      <edge id="28" source="political networks" target="policy networks" weight="1"/>
+      <edge id="29" source="mathematical modelling" target="complex networks" weight="1"/>
+      <edge id="30" source="blockmodelling" target="historical networks" weight="1"/>
+    </edges>
+  </graph>
+</gexf>
+

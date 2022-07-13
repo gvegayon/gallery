@@ -2,11 +2,13 @@
 
 For this year's [**International Network of Social Network Analysis**](https://www.insna.org/) Sunbelt conference, I have created four different network visualizations. All of them use mainly three R packages: [data.table](https://cran.r-project.org/package=data.table), [igraph](https://cran.r-project.org/package=igraph), [netplot](https://cran.r-project.org/package=netplot), and [rgexf](https://cran.r-project.org/package=rgexf).
 
-- [**Co-session network**](#co-session-network): Uses the online version of the program. Nodes are people and ties are given by nodes co-occurring within a session. Nodes are colored according to their roles: speaker, session chair, session organizer.
+1. [**Co-session network**](#co-session-network): Uses the online version of the program. Nodes are people and ties are given by nodes co-occurring within a session. Nodes are colored according to their roles: speaker, session chair, session organizer.
 
-- [**Co-authorship network**](#co-authorship-network): Part of the Sunbelt2022 [data viz challenge](https://github.com/johankoskinen/Sunbelt2022), nodes are authors and ties represent co-authorship. Nodes are colored by their most frequent topic; thus, authors with multiple papers will be assigned to the most popular topic in their submissions.
+2. [**Co-authorship network**](#co-authorship-network): Part of the Sunbelt2022 [data viz challenge](https://github.com/johankoskinen/Sunbelt2022), nodes are authors and ties represent co-authorship. Nodes are colored by their most frequent topic; thus, authors with multiple papers will be assigned to the most popular topic in their submissions.
 
-- [**Keyword network**](#keywords-network): Also part of the data viz challenge, this network shows how keywords are related. Each node represents a keyword, and two keywords are connected if their [Jaccard index]()--which is used to measure co-occurrence--is above a threshold. Colors are given by clustering using the Louvain algorithm in igraph.
+3. [**Keyword network**](#keywords-network): Also part of the data viz challenge, this network shows how keywords are related. Each node represents a keyword, and two keywords are connected if their [Jaccard index]()--which is used to measure co-occurrence--is above a threshold. Colors are given by clustering using the Louvain algorithm in igraph.
+
+4. [**Topics network**](#topics-network): Same idea as the keyword network; two topics are related if these show up in the same paper.
 
 All visualizations have two versions: a PNG file and an interactive html document.
 
@@ -43,3 +45,9 @@ The file used to generate this network is [`coauthor.R`](coauthor.R). You can ac
 The file used to generate this network is [`keywords.R`](keywords.R). You can access the interactive version [here](https://gvegayon.github.io/gallery/20220700-sunbelt/keywords/)
 
 ![](keywords.png)
+
+## Topics network
+
+The file used to generate this network is [`topics.R`](topics.R). You can access the interactive version [here](https://gvegayon.github.io/gallery/20220700-sunbelt/topics/)
+
+![](topics.png)
