@@ -1,4 +1,4 @@
-# Sunbelt 2022 conference
+# Sunbelt 2022 conference (checkout [the interactive version!](https://gvegayon.github.io/gallery/20220700-sunbelt/gexfjs/))
 
 The figures were drawn with the [`netplot` R package](https://cran.r-project.org/package=netplot).
 Nodes are speakers/chairs/organizers at the [Sunbelt 2022 conference in Cairns, Australia](https://www.sunbelt2022.org/).
