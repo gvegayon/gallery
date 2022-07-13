@@ -21,3 +21,5 @@ version of the affiliation network.
 ![](network_free.png)
 
 ![](network_free_w_legend.png)
+
+You can take a look at the 
