@@ -1,4 +1,4 @@
-# Network 2021: Joint Network Science and Sunbelt Conference
+# Networks 2021: Joint Network Science and Sunbelt Conference
 
 These network visualizations use the [`netplot`](https://github.com/USCCANA/netplot)
 R package. Please feel free to submit a PR to improve the output of this viz.
