@@ -1,4 +1,15 @@
-# Sunbelt 2022 conference (checkout [the interactive version!](https://gvegayon.github.io/gallery/20220700-sunbelt/gexfjs/))
+# Sunbelt 2022 conference
+
+For this year's [**International Network of Social Network Analysis**](https://www.insna.org/) Sunbelt conference, I have created four different network visualizations. All of them use mainly three R packages: [data.table](https://cran.r-project.org/package=data.table), [igraph](https://cran.r-project.org/package=igraph), [netplot](https://cran.r-project.org/package=netplot), and [rgexf](https://cran.r-project.org/package=rgexf).
+
+- [**Co-session network**](#co-session-network): Uses the online version of the program. Nodes are people and ties are given by nodes co-occurring within a session.
+
+- [**Co-authorship network**](#co-authorship-network) Part of the Sunbelt2022 data viz challenge. 
+
+- Keyword network
+
+
+## Co-session network
 
 The figures were drawn with the [`netplot` R package](https://cran.r-project.org/package=netplot).
 Nodes are speakers/chairs/organizers at the [Sunbelt 2022 conference in Cairns, Australia](https://www.sunbelt2022.org/).
@@ -22,4 +33,10 @@ version of the affiliation network.
 
 ![](network_free_w_legend.png)
 
-You can take a look at the 
+## Co-authorship network
+
+![](coauthor.png)
+
+## Keywords network
+
+![](keywords.png)

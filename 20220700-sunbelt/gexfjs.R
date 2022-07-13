@@ -34,5 +34,8 @@ plot(
   minEdgeWidth   = .005,
   maxEdgeWidth   = .05,
   nodeSizeFactor = .25,
-  zoomLevel      = 2
+  zoomLevel      = 2,
+  graphFile      = "sunbelt2022.gexf",
+  dir            = "gexfjs"
   )
+
