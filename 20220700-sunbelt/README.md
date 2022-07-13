@@ -18,7 +18,7 @@ packages: [data.table](https://cran.r-project.org/package=data.table),
 1.  [**Co-session network**](#co-session-network): Uses the online
     version of the program. Nodes are people and ties are given by nodes
     co-occurring within a session. Nodes are colored according to their
-    roles: speaker, session chair, session organizer.
+    roles: speaker, session chair, and session organizer.
 
 2.  [**Co-authorship network**](#co-authorship-network): Part of the
     Sunbelt2022 [data viz
@@ -30,9 +30,9 @@ packages: [data.table](https://cran.r-project.org/package=data.table),
 3.  [**Keyword network**](#keywords-network): Also part of the data viz
     challenge, this network shows how keywords are related. Each node
     represents a keyword, and two keywords are connected if their
-    [Jaccard index]()–which is used to measure co-occurrence–is above a
-    threshold. Colors are given by clustering using the Louvain
-    algorithm in igraph.
+    [Jaccard index](https://en.wikipedia.org/wiki/Jaccard_index)–which
+    is used to measure co-occurrence–is above a threshold. Colors are
+    given by clustering using the Louvain algorithm in igraph.
 
 4.  [**Topics network**](#topics-network): Same idea as the keyword
     network; two topics are related if these show up in the same paper.
