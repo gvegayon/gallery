@@ -91,15 +91,18 @@ png(filename = "coauthor.png", width = 1024 * 4, height = 1024 * 4, pointsize = 
 nplot(
   net,
   layout = graph_attr(net, "layout"),
-  vertex.size.range  = c(.01, .02)*.8,
-  edge.width.range   = c(0.5, 2),
+  vertex.size.range  = c(.01, .04)*.1,
+  edge.width.range   = c(2, 4) * 3,
   vertex.label.range = c(20, 30)*.8,
   edge.line.breaks   = 10,
   vertex.nsides      = rep(20, vcount(net)),
   vertex.label.show  = 1,
   edge.width         = E(net)$weight,
-  vertex.color       = V(net)$color
-  )
+  vertex.color       = V(net)$color,
+  bg.col             = "black",
+  vertex.label.color = "white", 
+  edge.curvature     = pi/3
+)
 dev.off()
 
 
